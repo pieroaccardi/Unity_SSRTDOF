@@ -62,7 +62,7 @@ Shader "PostProcess/SSRTDOF"
 			#define MAX_DISTANCE 200
 			#define MAX_STEPS 300
 			#define STEP 1
-			#define SPP 32
+			#define SPP 4
 						
 			sampler2D _MainTex;
 			sampler2D LinearDepthSampler;
